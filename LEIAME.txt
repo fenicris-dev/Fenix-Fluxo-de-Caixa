@@ -1,0 +1,18 @@
+FÊNIX | CONTROLE FINANCEIRO — v1.0 (Livro das Regras 5.2)
+Criado em 01/11/2026 · modificado em 02/11/2026
+
+ARQUIVOS
+- fenix-controle-financeiro-v1.0.html ...... o aplicativo (cópia com versão, controle interno)
+- fenix-controle-financeiro.html .......... o aplicativo (cópia neutra, sem versão, é a que se publica)
+- fenix-controle-financeiro-manual-v1.0.pdf  manual do usuário com prints (para baixar)
+- fenix-controle-financeiro-manual-v1.0.md . mesmo manual em texto (as imagens estão na pasta manual-img/ do .zip)
+- fenix-controle-financeiro-changelog-v1.0.md histórico de versões
+
+COMO USAR
+1. Abra o .html no navegador (celular ou computador). Funciona sem internet e é um app de arquivo único.
+2. Para publicar no GitHub Pages, envie fenix-controle-financeiro.html (renomeie para index.html se for o único app da pasta).
+3. Os dados ficam só no aparelho (localStorage). Faça backup em Configurações > Backup > Exportar.
+
+OBSERVAÇÕES
+- Esta versão não usa o Fênix Core nem o Firebase (não houve acesso ao core publicado no GitHub Pages durante a criação); a estrutura de dados já traz o esquema versionado e o campo de origem externa para integrar depois.
+- O app é local-first e de um aparelho só (sem login e sem sincronização). Proteção opcional por senha do aparelho.
