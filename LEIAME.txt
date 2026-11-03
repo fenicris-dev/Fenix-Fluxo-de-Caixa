@@ -1,12 +1,16 @@
-Fênix | Fluxo de Caixa — v1.2 (02/11/2026)
+Fênix | Fluxo de Caixa — v1.3 (03/11/2026)
 
 Arquivos:
-- fenix-fluxo-de-caixa-v1.2.html  -> o aplicativo (arquivo único, funciona offline)
-- fenix-fluxo-de-caixa-manual-v1.2.pdf / .md -> manual do usuário
-- fenix-fluxo-de-caixa-changelog-v1.2.md -> histórico de versões
+- fenix-fluxo-de-caixa-v1.3.html  -> o aplicativo (arquivo único, funciona offline)
+- fenix-fluxo-de-caixa-manual-v1.3.pdf / .md -> manual do usuário
+- fenix-fluxo-de-caixa-changelog-v1.3.md -> histórico de versões
 - fenix-fluxo-de-caixa-icone-*.png -> ícone oficial
+- fenix-fluxo-de-caixa-v1.3.zip -> tudo junto
 
 Como usar: abra o .html no navegador do celular e use "Adicionar à tela inicial".
-Seus dados da v1.0 continuam valendo (mesmo armazenamento).
-Novidades da v1.2: correção do saldo e do calendário para movimentos anteriores à data de referência. Da v1.1: ícone oficial, novo nome, importar extrato (OFX/CSV), limites por categoria, Termos e Política.
+Seus dados das versões anteriores continuam valendo (mesmo armazenamento).
+
+Novidades da v1.3: contas (saldo por conta), transferência entre contas (com taxa opcional, sem virar entrada/saída), extrato por conta e transferência na importação de extrato.
+v1.2: saldo e calendário passam a contar movimentos anteriores à data de referência.
+v1.1: ícone oficial, novo nome, importar extrato (OFX/CSV), limites por categoria, Termos e Política.
 Pendente: Firebase/sincronização entre aparelhos (depende do fenix-core.js).
